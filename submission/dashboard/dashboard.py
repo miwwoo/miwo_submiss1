@@ -6,8 +6,8 @@ import streamlit as st
 
 # Membaca dataset
 aotizhongxin_df = pd.read_csv('https://raw.githubusercontent.com/miwwoo/miwo_submiss1/refs/heads/main/submission/dashboard/PRSA_Data_Aotizhongxin_20130301-20170228.csv')
-changping_df = pd.read_csv('PRSA_Data_Changping_20130301-20170228.csv')
-tiantan_df = pd.read_csv('PRSA_Data_Tiantan_20130301-20170228.csv')
+changping_df = pd.read_csv('https://raw.githubusercontent.com/miwwoo/miwo_submiss1/refs/heads/main/submission/dashboard/PRSA_Data_Changping_20130301-20170228.csv')
+tiantan_df = pd.read_csv('https://raw.githubusercontent.com/miwwoo/miwo_submiss1/refs/heads/main/submission/dashboard/PRSA_Data_Tiantan_20130301-20170228.csv')
 
 # Menggabungkan dataset
 df_combined = pd.concat([aotizhongxin_df, changping_df, tiantan_df])
